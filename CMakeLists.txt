@@ -18,6 +18,9 @@ catkin_simple()
 # cs_add_executable(example src/example.cpp)
 # target_link_library(example my_lib)
 
+cs_add_executable(robot_butler src/robot_butler.cpp)
+target_link_libraries(robot_butler cwru_pcl_utils baxter_traj_streamer ${catkin_LIBRARIES})
+
 cs_install()
 cs_export()
     

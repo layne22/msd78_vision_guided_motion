@@ -40,10 +40,30 @@
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>baxter_traj_streamer</build_depend>
   <build_depend>cwru_pcl_utils</build_depend>
-<build_depend>baxter_traj_streamer</build_depend>
+  <build_depend>cwru_action</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>actionlib</build_depend>  
+  <build_depend>simple_action_client</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>baxter_traj_streamer</run_depend>
   <run_depend>cwru_pcl_utils</run_depend>
-<run_depend>baxter_traj_streamer</run_depend>
+  <run_depend>cwru_action</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>actionlib_msgs</run_depend>    
+  <run_depend>actionlib</run_depend> 
+  <run_depend>simple_action_client</run_depend>
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- You can specify that this package is a metapackage here: -->
